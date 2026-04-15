@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(npm install *)",
+      "Read(//usr/local/bin/**)",
+      "Bash(brew list *)",
+      "Bash(brew --version)",
+      "Bash(python -c \"import fastapi, uvicorn, sqlalchemy; print\\('All backend deps OK'\\)\")",
+      "Bash(chmod +x *)",
+      "Bash(python *)",
+      "Bash(curl *)",
+      "Bash(/Users/adamrotman/PycharmProjects/PokerOrganizer/.venv/bin/python *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(git --version)"
+    ]
+  }
+}
